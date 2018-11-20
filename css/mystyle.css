@@ -1,0 +1,522 @@
+body
+{
+	
+
+}
+
+.navbar_div
+{
+	background-color:#f7f8f9;
+	margin-left:0px;
+}
+
+
+.title_prime,.title_secondary,.breaking_head,.topic_head,.timestamp_prime,.timestamp_secondary,.section_heading,.section_heading_headlines,.title_tertiary,.timestamp_tertiary,.more,.news_head,.contact_head,.about_head,.useful_head,.follow_head
+{	
+	font-family: 'Roboto', sans-serif;
+	font-weight:bold;
+	letter-spacing:1px;
+	margin:0px;
+}
+
+.headlines,.politics
+{
+	background-color:#f1f2f3;
+}
+
+.headlines .section_heading
+{
+	margin-top:0px;
+}
+
+.headlines, .trending,.politics,.business
+{
+	margin-bottom:15px;
+}
+
+.trending,.business
+{
+	background-color:#f7f8f9; 
+}
+
+.section_heading,.section_heading_headlines
+{
+	font-size:28px;
+	letter-spacing:1px;
+	margin-bottom:5px;
+}
+
+.section_heading_headlines
+{
+	margin-left:8px;
+	margin-top:5px;
+}
+
+.section_heading
+{
+	margin-left:15px;
+}
+
+
+.follow_head
+{
+	font-size:28px;
+	text-decoration:underline;
+}
+
+.headline:link
+{
+	text-decoration:none;
+	color:#000;
+}
+
+.headline:hover
+{
+	text-decoration:underline;
+	color:#333;
+}
+
+.title_prime,.title_secondary,.title_tertiary
+{
+	margin:0px;
+	font-size:26px;
+}
+
+.title_prime
+{
+	font-size:26px;
+}
+
+.title_secondary
+{
+	font-size:20px;
+}
+
+.title_tertiary
+{
+	font-size:16px;
+}
+
+.author_title_prime,.author_title_secondary,.author_title_tertiary
+{
+	margin-top:10px;
+	margin-bottom:15px;
+	color:#333;
+	letter-spacing:0.5px;
+}
+
+.navbar
+{
+	padding:0px;
+}
+
+.navbar li
+{
+	list-style-type:none;	
+	display: inline;
+	padding-right:20px;
+	font-family: 'Heebo', sans-serif;		/*changes the font of the navbar text*/
+	font-size:20px;
+	color:black;
+	font-weight:bold;
+	letter-spacing:1.5px;
+}
+
+.navbar li .nav_button:link
+{
+	text-decoration:none;	
+	color:#000;
+}
+
+.navbar li .nav_button:hover
+{
+	text-decoration:underline;	
+	color:#333;
+}
+
+img
+{
+	width:26px;
+	height:26px;
+}
+
+.nav_button:hover
+{
+	text-decoration:none;
+	color:#000;
+}
+
+.search_signin
+{
+	float:right;
+}
+
+.searchbar
+{
+	padding:7px 10px;
+    border:1px solid black;
+}
+
+
+.author_title_prime
+{
+	font-size:14px;
+}
+
+.author_title_secondary
+{
+	font-size:13px;
+}
+
+.author_title_tertiary
+{
+	font-size:12px;
+}
+
+.article_text_prime, .author_title_prime,.author_title_secondary,.article_text_secondary,.article_text_tertiary, .author_title_tertiary
+{
+	font-family: 'Heebo', sans-serif;
+	line-height:20px;
+}
+
+.article_text_prime,.article_text_secondary,.article_text_tertiary
+{
+	letter-spacing:0.2px;
+}
+
+.article_text_prime
+{
+	font-size:18px;
+	line-height:24px;	
+}
+
+.article_text_secondary
+{
+	font-size:16px;
+	line-height:22px;	
+}
+
+.article_text_tertiary
+{
+	font-size:14px;
+	line-height:20px;	
+}
+
+.headline_prime,.headline_secondary,.headline_tertiary
+{
+	box-sizing:border-box;
+	border: 1px solid #d2cdcc;
+	padding:10px 10px;
+	margin-bottom:5px;
+}
+
+.timestamp_prime,.timestamp_secondary,.timestamp_tertiary
+{
+	text-align:right;
+	margin-top:20px;
+	color:#999;
+}
+
+.timestamp_prime
+{
+	font-size:13px;
+}
+
+.timestamp_secondary
+{
+	font-size:12px;
+}
+
+.timestamp_tertiary
+{
+	font-size:11px;
+}
+
+.breaking_back,.topic_head
+{
+	float:left;
+	background-color:#ff0000;
+	padding:5px;
+	box-sizing:border-box;
+	height:25px;
+	color:#fff
+}
+
+.breaking_head
+{
+	color:#fff
+}
+
+.topic_head
+{
+	color:#fff
+}
+
+.more 
+{
+	font-size:34px;
+	letter-spacing:0.6px;
+	color:#000;
+}
+
+.more:link
+{
+	color:#000;
+	text-decoration:none;
+}
+
+.more:hover
+{
+	color:#111;
+	text-decoration:underline;
+}
+
+.more_arrow
+{
+	width:26px;
+	height:26px;
+}
+
+.more_div
+{
+	margin-left:550px;
+	margin-bottom:10px;
+	
+}
+
+.vert_line
+{
+	border-left: 2px solid #333;
+}
+
+.news_head,.contact_head,.about_head,.useful_head
+{
+	font-size:20px;
+	color:#000;
+}
+
+.news_head
+{
+	padding-left:83px;
+}
+
+.contact_head
+{
+	padding-left:54px;
+
+}
+
+.about_head
+{	
+	padding-left:62px;
+}
+
+.useful_head
+{
+	padding-left:46px;
+}
+
+.follow_icon
+{
+	width:30px;
+	height:30px;
+}
+
+
+.footer_list li
+{
+	list-style-type:none;	
+	font-family: 'Heebo', sans-serif;		/*changes the font of the navbar text*/
+	font-size:16px;
+	color:#ffffff;
+	letter-spacing:0.5px;
+	text-align:center;
+	padding:0px;
+	
+}
+
+.footer_list li a:link,.footer_list li a:hover
+{	
+	text-align:center;
+}	
+
+.footer_list li a:link
+{
+	color:#000;
+	ext-decoration:none;
+}
+
+.footer_list li a:hover
+{
+	text-decoration:underline;	
+	color:#444;
+}
+
+
+.news_footer,.contact_footer,.about_footer,.useful_footer
+{
+	height:250px;
+}
+
+.news_footer
+{
+	padding-right:70px;
+	padding-left:40px;
+}
+
+.contact_footer
+{
+	padding-left:40px;
+
+}
+
+.about_footer
+{
+	padding-left:40px;
+	padding-right:70px;
+}
+
+.useful_footer
+{
+	float:right;
+	padding-left:40px;
+}
+
+.footer
+{
+	background-color:#D2CDCC ;
+	margin-top:10px;
+	padding: 10px 0px;
+}
+
+.contact_button
+{
+	margin-bottom:24px;
+}
+
+.about_button
+{
+	margin-bottom:12px;
+}
+
+.useful_button
+{
+	margin-bottom:39px;
+}
+
+.searchbar
+{
+	width:130px;
+	border:none;
+	background-color:#f7f8f9;
+}
+
+.sign_in_div,.search_div
+{
+	float:left;
+	border: 1px solid #000;
+	width:180px;
+	
+}
+
+.search_div
+{
+	background-color:#f7f8f9;
+}
+
+.sign_in_div
+{
+	margin-bottom:10px;
+}
+
+.follow_div
+{
+	margin-top:5px;
+}
+
+.follow_icon_div
+{
+	margin-top:5px;
+}
+
+
+.sign_icon
+{
+	float:right;
+	margin-left:73px;
+}
+
+.search_icon
+{
+	width:20px;
+	height:20px;
+	
+}
+
+.sign_in
+{	
+	font-family:'Roboto', sans-serif;
+}
+
+.sign_in:link
+{
+	color:#000;
+	text-decoration:none;
+	
+}
+
+.sign_in:hover
+{
+	color:#333;
+	text-decoration:underline;
+}
+
+.business
+{
+	margin-bottom:10px;
+}
+
+.fa
+{
+	float:right;
+	margin-top:5px;
+	margin-right:6px;
+}
+
+.label_text,.add_header
+{
+	font-family: 'Roboto', sans-serif;
+	font-weight:bold;
+	margin-bottom:10px;
+}
+
+.form_story
+{
+	border: 1px solid #000;
+	width: 260px;
+	padding:10px;
+	margin-bottom:5px;
+}
+
+div.business :nth-of-type(1),div.politics :nth-of-type(1), div.trending :nth-of-type(1) {
+    margin-left:0px;
+}
+
+div.business :nth-of-type(3),div.politics :nth-of-type(3), div.trending :nth-of-type(4) {
+    margin-right:0px;
+}
+
+.form_divs
+{
+	margin-bottom:10px;
+	font-family: 'Roboto', sans-serif;
+	font-weight:bold;
+}
+
+
+select,.input_text,textarea
+{
+	margin-bottom:10px;
+	margin-top:10px;
+	margin-left:10px;
+}

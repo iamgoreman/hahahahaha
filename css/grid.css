@@ -1,0 +1,182 @@
+/*Some generic paragpraph styling here*/
+
+/* p {
+    color: black;
+    font-weight: 500;
+    font-family: sans-serif;
+
+} */
+
+/*I am centered because my margin is the same on the left and the right*/
+
+.container {
+    width:1200px;
+    margin: auto;
+	background-color:#f7f8f9;
+	display:table;
+
+}
+
+
+
+/* 80 px & 10px on either side = 100px
+12 of me fit in the layout perfectly! */
+
+
+
+
+
+.one {
+    width:80px;
+    display: inline;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+/* 180 px & 10px on either side = 200px
+6 of me fit in the layout perfectly! */
+
+.two {
+    width:180px;
+    display: inline;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+ 
+}
+
+/* 280 px & 10px on either side = 300px
+4 of me fit in the layout perfectly! */
+
+.three {
+    width:280px;
+    display: inline;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+/* 380 px & 10px on either side = 400px
+3 of me fit in the layout perfectly! */
+
+.four{
+    width:380px;
+    display: inline;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+/* 480 px & 10px on either side = 500px */
+
+.five {
+    width:480px;
+    display: inline;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+/* 580 px & 10px on either side = 600px
+2 of me fit in the layout perfectly! */
+
+.six {
+    width:580px;
+    display: inline;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+/* 680 px & 10px on either side = 700px */
+
+.seven {
+    width:680px;
+    display: inline;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+/* 780 px & 10px on either side = 800px */
+
+.eight {
+    width:780px;
+    display: inline;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+/* 880 px & 10px on either side = 900px */
+
+.nine{
+    width:880px;
+    display: inline;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+/* 980 px & 10px on either side = 1000px */
+
+.ten {
+    width:980px;
+    display: inline;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+/* 1080 px & 10px on either side = 1100px */
+
+.eleven {
+    width:1080px;
+    display: inline;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+/* 1180 px & 10px on either side = 1200px */
+
+.twelve {
+    width:1180px;
+    display: inline;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+/*I stole this from the 960 grid system https://www.960.gs*/
+.alpha {
+  margin-left: 0;
+}
+
+.omega {
+  margin-right: 0;
+}
+
+
+/* CLEAR FIX http://sonspring.com/journal/clearing-floats */
+
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}

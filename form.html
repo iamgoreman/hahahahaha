@@ -1,0 +1,185 @@
+<! DOCTYPE html>
+<html lanf ="en">
+	<head>
+		<title> Add Story - Form </title>
+		
+		<meta charset="UTF-8">
+		
+		<link rel="stylesheet" type="text/css" href="css/mystyle.css">
+		<link rel="stylesheet" type="text/css" href="css/grid.css">
+		<link href="https://fonts.googleapis.com/css?family=Heebo|Roboto" rel="stylesheet">
+		<script type="text/javascript" src="js/for.js"></script>
+	</head>
+	
+	<body>
+	
+		<div class="twelve  ">
+			<div class="header twelve">			<!-- header wrapper begin -->
+				
+			<div class="logo_div eight omega">	
+				<img src="#"/>
+			</div>					
+			
+			<div class="two alpha omega follow_div">
+				<h3 class="follow_head">Follow Us</h3>
+				<div class="follow_icon_div">
+					<a href="#"><img class="follow_icon" src="images/facebook.png"/></a>
+					<a href="#"><img class="follow_icon" src="images/twitter.png"/></a>
+					<a href="#"><img class="follow_icon" src="images/youtube.png"/></a>
+					<a href="#"><img class="follow_icon" src="images/g+.png"/></a>
+				</div>
+			</div>
+			
+			<div class="search two">	<!-- search div begin -->
+				
+					<div class="search_signin"> <!-- div contaning search bar , checkboxes and button -->
+						
+						<div class="sign_in_div">
+							<a class="sign_in" href="#">Sign in/Up<img class="sign_icon" src="images/sign.png"/></a>
+						</div>
+						<div class="search_div">
+							<form>
+								
+								<input class="searchbar" type="text" name="searchbar" placeholder="Search">
+								<i class="fa fa-search"></i>		
+							</form>
+						</div>
+					</div>
+				
+			
+			</div><!-- search div ends -->
+			
+			<!-- navbar div begin -->
+			<div class="navbar_div twelve"> 		
+				<ul class="navbar">
+					<li ><a class="nav_button" href="#">NEWS</a></li>
+					<li ><a class="nav_button" href="#">OPINION</a></li>
+					<li ><a class="nav_button" href="#">BUSINESS</a></li>
+					<li ><a class="nav_button" href="#">SPORTS</a></li>
+					<li ><a class="nav_button" href="#">POLITICS</a></li>
+					<li ><a class="nav_button" href="#">ENTERTAINMENT</a></li>
+					<li ><a class="nav_button" href="#">LIFESTYLE</a></li>
+					<li ><a class="nav_button" href="#">TECHNOLOGY</a></li>
+					<li ><a class="nav_button" href="#">FASHION</a></li>
+				</ul>
+				
+			</div> 			
+			<!-- navbar div ends -->
+			
+		</div> <!-- header wrapper ends -->
+	
+		<div class="add_div">
+			<h2 class="add_header">Add News Story</h2>
+			
+			 <form action="addStory.php" method="post"> 
+			<!-- <form action="" method="post">  -->
+			
+			<h2 class="form_divs">Story Details</h2>
+				<div class="form_story">
+					<table>
+						
+						
+							<tr>
+								<td>
+									<label class="label_text">Type:</label>
+								</td>
+								<td>
+									<select name="type">
+										<option value="headline">Headline</option>
+										<option value="trending">Trending</option>
+										<option value="business">Business</option>
+										<option value="politics">Politics</option>						
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label class="label_text">Headline:</label>
+								</td>
+								<td>
+									<input type="text" name="headline" placeholder="Enter Headline here" id="headline" class="input_text"/>
+								</td>
+							</tr>
+							
+							<tr>
+								<td></td>
+								<td>
+									<span class="span_text error" id="headlineError" ></span>
+								</td>
+								
+							</tr>
+							
+							<tr>
+								<td>
+									<label class="label_text">Story Text:</label>
+								</td>
+								<td>
+									<textarea name="storyText" placeholder="Enter Article text here" rows="3" col="4" id="storyText" class="input_text"></textarea>
+								</td>
+							</tr>
+							
+							<tr>
+								<td></td>
+								<td>
+									<span class="span_text error" id="storyTextError" ></span>
+								</td>
+								
+							</tr>
+					</table>
+				</div>
+				
+				<h2 class="form_divs">Author Details</h2>
+				<div class="form_story">
+					<table>
+					<tr>
+						<td>
+							<label class="label_text">Author:</label>
+						</td>
+						<td>
+							<input type="text" name="author" placeholder="Phil Coulson" id="author" class="input_text"/>
+						</td>
+					</tr>
+					
+					<tr>
+						<td></td>
+						<td>
+							<span class="span_text error" id="authorError" ></span>
+						</td>
+						
+					</tr>
+					
+					<tr>
+						
+						<td>
+							<label class="label_text">Title:</label>
+						</td>
+						<td>
+							<select name="title" placeholder="Editor" id="title" class="input_text">
+										<option value="Editor in Chief">Editor in Chief</option>
+										<option value="Senior Editor">Senior Editor</option>
+										<option value="Senior Reporter">Senior Reporter</option>
+										<option value="Assistant Editor">Assistant Editor</option>
+										<option value="Political Correspondent">Political Correspondent</option>
+										<option value="Sports Reporter">Sports Reporter</option>
+							</select>
+						</td>
+					</tr>
+					
+					 
+					</table>
+				</div>
+					<table>
+					<tr>
+						<td>
+							<input class="submit_text" type="submit" value="Submit Story" name="submit" id="submit"/>
+						</td>
+						<td>
+							<input class="reset_text" type="reset" value="Reset Form" name="reset" id="reset"/>
+						</td>
+					</tr>
+				</table>
+			</form>
+		</div>
+	</body>
+
+</html>
